@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Payment Page</title>
+	<link rel="stylesheet" href="rsc/styles/stylePaymentPage.css">
+</head>
+<body>
+
+	<header>
+		
+		<p class="mainHeading">E-Commerce Website</p>
+
+	</header>
+
+	<main>
+		<h1 id="purchaseHead">Purchase: Premium- 1 year</h1>
+
+		<!-- Image retrieved from - https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=pexels-pixabay-356079.jpg&fm=jpg -->
+
+		<img src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=pexels-pixabay-356079.jpg&fm=jpg" alt="dummyImage" class="dummyImage">
+
+		<br><br><br>
+
+		<h3>Product Description</h3>
+		
+		<div class="productDescription">
+
+			<p id="description">1 Year Premium</p> 
+
+			<p id="quantity">x1</p>
+
+			<p id="price"> $359 CAD</p>
+
+			<p id="total">Total</p>
+
+			<p id="finalPrice">$359 CAD</p>
+
+		</div>
+
+		<br><br>
+
+		<div class="paymenyMethod">
+			
+			<h3>Payment Method</h3>
+
+			<form class="paymentForm">
+
+			    <label class="checkbox">
+			      <input type="checkbox" id="inputBox">Visa Master Card			
+			    </label>
+			    <label class="checkbox">
+			      <input type="checkbox" id="inputBox">Paypal
+			    </label>
+			    <label class="checkbox">
+			      <input type="checkbox" id="inputBox">Electronic Bank Transfer
+			    </label>
+
+  			</form>
+
+  			<br>
+
+  			<div class="details1">
+
+  				<form>
+
+		  			<label for="name" id="fullName">Full name</label><br><br>
+
+					<input type="text" id="name" name="name"><br><br>
+
+					<label for="card" id="cardDetails">Card Number</label><br><br>
+
+					<input type="text" id="card" name="card"> <br><br>
+
+					<div class="expirySecurity">
+
+						<div id="expiry">
+
+							<label for="date" id="expireDate">Expire Date</label><br><br>
+							
+							<input type="text" name="month" placeholder="Month" id="month">
+							
+							<input type="text" name="year" placeholder="Year" id="year">
+
+						</div>
+
+						<div id="securityCode">
+
+							<label for="code" id="codeText">Security Code</label><br><br>
+							
+							<input type="text" name="code" placeholder="CVV" id="code"><br><br><br><br>
+
+						</div>
+
+					</div>
+
+					<label for="promo" id="promoText">Promotion Code</label><br><br>
+							
+					<input type="text" name="promo" value="" id="promotion"><br><br><br><br><br>
+
+					<input type="submit" name="placeOrder" value="Place Order" id="orderButton">
+
+				</form>
+
+  			</div>
+
+		</div>
+
+	</main>
+
+	<footer>
+		<p>
+			By clicking Place Order, you agree to the Terms of Use and Privacy Policy. <br>
+			&copy; Copyright
+		</p>
+	</footer>
+
+</body>
+</html>

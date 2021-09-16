@@ -1,0 +1,265 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    /*color: black;*/
+	
+}
+body{
+	background-image: linear-gradient(white, 
+	#ffeb9c);
+}
+
+/*header styling same as before*/
+
+header{
+
+	border-bottom: 5px solid #FADA5E;
+}
+
+#nav-icon{
+	margin-left: 50px;
+}
+
+#headerLogo{
+
+	padding: 5px;
+}
+
+#headerImage {
+
+	height: 90px;
+	width: 100px;
+}
+
+/*header*/
+
+#mainTitle{
+
+	text-align: center;
+	padding: 20px;
+}
+
+.cardSection{
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	grid-gap: 10px;
+	padding: 10px 20px;
+	margin-bottom: 8%;
+
+}
+.title{
+	background-color: #E3E3E3;
+	border-radius: 30px;
+	height: fit-content;
+}
+#planCard, #planB, #planC, #planA, #planD, #planE{
+
+	background-color: #E3E3E3;
+	border-radius: 30px;
+	height: fit-content;
+
+}
+
+#insideCardHeading{
+
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
+#insideCardPriceHeading{
+
+	text-align: center;
+	padding: 5px;
+	color: black;
+	width: 100%;
+	background-color: white;
+	border-radius: 30px 30px 0px 0px;
+}
+#go_to_payment_form{
+	padding-bottom: 10px;
+}
+#insideCardPara{
+
+	text-align: start;
+	padding: 5px;
+	line-height: 2;
+	font-size: 1.0vw;
+	margin-left: 30px;
+}
+
+#insideCardContent{
+
+	padding: 30px;
+	line-height: 1.3;
+	font-size: 1vw;
+	margin-top: -15%;
+	text-align: center;
+}
+
+
+/*The yellow section inside the main card*/
+
+.insideCardInfo{
+
+	background-color: #FADA5E;				
+	width: 90%;
+	border-radius: 30px;
+	margin: auto;
+	max-width: 90%;
+	margin-bottom: 5%;
+}
+
+#planPriceHeading{
+
+	line-height: 2;
+	font-size: 1.4vw;
+}
+#planNameHeading{
+
+	line-height: 2;
+	font-size: 1.8vw;
+}
+
+#productInfo{
+
+	padding: 20px;
+	max-width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    margin-bottom: 10%;
+    grid-gap: 10px;
+}
+
+#dummyImage{
+
+	/*height: 300px;
+	width: auto;*/
+	max-width: 100%;
+	height: auto;
+}
+
+#productPara{
+
+	line-height: 2;
+	font-size: 1.2vw;
+}
+
+.learnMoreButton{
+
+	background: #039000;
+	height: 20px;
+	width: 60px;
+	border: 0;
+	text-align: center;
+
+}
+
+/*footer styling same as before*/
+
+footer {
+
+	width: 100%;
+	height: 100%;
+	background-color: #707070;
+	color: #F8F8F8;
+	text-align: center;
+	border-top: 7px solid #FADA5E;
+}
+
+ul#footerList li{
+
+	display: inline;
+	padding: 40px;
+}
+
+#footerList a{
+
+	color: #F8F8F8;
+}
+
+.footerContent{
+
+	padding: 40px;
+}
+
+.footerContent > p{		/* for the copyright content */
+
+	color: #F8F8F8;
+	padding: 20px;
+	opacity: 75%;
+}
+
+
+/* CSS for email support form */
+/*
+Keeping this support banner
+*/
+
+#supportContents{
+	width: 50%;
+	padding: 20px;
+	display: flex;
+	border: none;
+}
+
+#supportLogo{
+	width: 150px;
+	height: 150px;
+}
+
+.supportDescription-h{
+	font-style: italic;
+    color: #039000;
+}
+
+.supportDescription-p{
+	margin: 0%;
+	line-height: 1em;
+	font-size: 1em;
+
+}
+
+#contactUs-button{
+	margin-top: 10px;
+	font-weight: bolder;
+	background-color: #039000;
+	color: white;
+	
+}
+
+#supportForm{
+	display: none;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+}
+
+.formInput{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#customerMessage{
+	width: 100%;
+	height: 150px;
+}
+
+#submitForm{
+	font-weight: bolder;
+	background-color: #039000;
+	color: white;
+
+}
+
+
+#separator {
+	border: 1px solid #039000;
+}
