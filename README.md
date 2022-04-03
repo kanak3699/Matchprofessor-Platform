@@ -1,23 +1,3 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Project Summary
+Our Team has been selected to be part of an e-commerce project offered by [Product Name] Inc with [Product Owner] being our point of contact and product owner for this project. Matchprofessor Inc is a platform for Students, Researchers, Journalists, Professors, and Academic communities. The goal for this semester is to create a working prototype of a web application that enables visitors of the website to buy products offered by the website. Due to the limited knowledge of the team and learning curve that might be involved with the use of Laravel framework for the project team, the client understands the attended features and functionalities of the web project require the team to use an incremental approach starting with the minimal viable product with a focus on a safe and secure payment gateway that does not require the visitor to be authenticated to the website. The completion of this project means for the client that users of the intended platform will be able to make purchases.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)# Payment-Gateway
-# Payment-Gateway
-# Payment-Gateway
-# Payment-Gateway
